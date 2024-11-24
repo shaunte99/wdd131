@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #3498db; /* Soft Blue */
-    --secondary-color: #2c3e50; /* Charcoal Gray */
-    --background-color: #ecf0f1; /* Light Gray */
-    --text-color: #2c3e50; /* Dark Gray for text */
-    --accent-color: #e74c3c; /* Bold Red Accent for highlights */
-    --footer-background: #34495e; /* Slate Gray */
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --footer-background: #34495e;
   }
   
   body {
@@ -15,17 +15,18 @@
     color: var(--text-color);
   }
   
-  /* Hero Section */
   .hero {
     position: relative;
     text-align: center;
     color: white;
   }
+  
   .hero img {
     width: 100%;
     height: auto;
     display: block;
   }
+  
   .hero h1 {
     position: absolute;
     bottom: 10%;
@@ -35,10 +36,9 @@
     padding: 15px 25px;
     border-radius: 5px;
     font-size: 3rem;
-    color: var(--primary-color); /* Soft Blue for title */
+    color: var(--primary-color);
   }
   
-  /* Data Section */
   .data {
     padding: 20px;
     background-color: white;
@@ -48,52 +48,55 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+  
   .data h2 {
     color: var(--primary-color);
     font-size: 2rem;
   }
+  
   .data ul {
     list-style-type: none;
     padding: 0;
   }
+  
   .data li {
     margin: 10px 0;
     font-size: 1.2rem;
   }
   
-  /* Weather Section */
   .weather {
     padding: 20px;
-    background-color: #ffffff; /* Clean white background */
+    background-color: #ffffff;
     text-align: left;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+  
   .weather h2 {
     color: var(--primary-color);
     font-size: 1.8rem;
   }
+  
   .weather-icon {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 10px;
   }
   
-  /* Footer */
   footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--footer-background); /* Slate Gray for footer */
+    background-color: var(--footer-background);
     color: white;
     font-size: 1rem;
     border-top: 4px solid var(--primary-color);
   }
+  
   footer p {
     margin: 5px;
     font-size: 1rem;
   }
   
-  /* Button and Links */
   button, a {
     background-color: var(--primary-color);
     color: white;
@@ -102,8 +105,16 @@
     text-decoration: none;
     font-size: 1rem;
   }
+  
   button:hover, a:hover {
-    background-color: var(--accent-color); /* Bold Red Accent for hover */
+    background-color: var(--accent-color);
     transition: background-color 0.3s ease;
+  }
+  
+  /* Media Query Example */
+  @media (min-width: 600px) {
+    .hero h1 {
+      font-size: 4rem;
+    }
   }
   
