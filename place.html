@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Mountain, South Africa</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  
+    <header class="hero">
+        <picture>
+          <!-- Large image for screens wider than 600px -->
+          <source srcset="images/Table mountain hero.webp" media="(min-width: 600px)">
+          <!-- Small image for screens smaller than 600px -->
+          <img src="images/Table mountain hero1.webp" alt="Table Mountain, South Africa">
+        </picture>
+        <h1>Table Mountain</h1>
+      </header>
+      
+  <!-- Data Section -->
+  <section class="data">
+    <h2>Facts About Table Mountain</h2>
+    <ul>
+      <li><strong>Location:</strong> Cape Town, South Africa</li>
+      <li><strong>Height:</strong> 1,085 meters (3,558 ft)</li>
+      <li><strong>Age:</strong> Over 260 million years</li>
+      <li><strong>Notable Feature:</strong> One of the "New 7 Wonders of Nature"</li>
+      <li><strong>Visitors:</strong> Over 1 million annually</li>
+    </ul>
+  </section>
+
+  <!-- Weather Section -->
+  <section class="weather">
+    <h2>Weather</h2>
+    <div class="weather-icon">
+      <span class="weather-emoji">⛅</span>
+    </div>
+    <ul>
+      <li><strong>Temperature:</strong> 18°C</li>
+      <li><strong>Wind Speed:</strong> 20 km/h</li>
+      <li><strong>Condition:</strong> Partly Cloudy</li>
+      <li><strong>Wind Chill:</strong> <span id="windChill">N/A</span></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 - Kamogelo Matsetela. All rights reserved.</p>
+    <p>Last modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
