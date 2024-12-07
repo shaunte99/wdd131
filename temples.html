@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Picture album of temples around the world.">
+    <title>Temple Picture Album</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/temples.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Picture Album</h1>
+        <nav>
+            <button id="menuToggle">☰ Menu</button>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure>
+            <img src="images/Salt Lake Temple.jpg" alt="Temple 1">
+            <figcaption>Salt Lake Temple </figcaption>
+        </figure>
+        <figure>
+            <img src="images/San Diego California Temple.jpg" alt="Temple 2">
+            <figcaption>San Diego California Temple </figcaption>
+        </figure>
+        <figure>
+            <img src="images/Tucson Arizona Temple.jpg" alt="Temple 3">
+            <figcaption>Tucson Arizona Temple </figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Temple Album</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/temples.js"></script>
+</body>
+</html>
