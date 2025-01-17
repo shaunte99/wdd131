@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4caf50;
+    padding: 10px 20px;
+  }
+  header h1 {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .hamburger {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  nav ul li a:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  .temples-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .temples-grid figure {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+  }
+  .temples-grid img {
+    width: 100%;
+    height: auto;
+  }
+  figcaption {
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Design for Larger Screens */
+  @media (min-width: 768px) {
+    header {
+      flex-direction: row;
+    }
+    nav ul {
+      display: flex;
+      gap: 20px;
+      flex-direction: row;
+    }
+    .hamburger {
+      display: none; /* Hide hamburger menu on larger screens */
+    }
+    .temples-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+    main {
+      padding: 40px;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+  

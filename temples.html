@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Picture Album</title>
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)">
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Temple Picture Album</h1>
+    <button id="menu-toggle" class="hamburger">&#9776;</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Old</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Large</a></li>
+        <li><a href="#">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Featured Temples</h2>
+    <section class="temples-grid">
+      <figure>
+        <img src="images/Salt Lake Temple.jpg" alt="salt lake Temple">
+        <figcaption>salt lake Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/LaieTemple.jpg" alt="laie Temple">
+        <figcaption>laie Temple </figcaption>
+      </figure>
+      <figure>
+        <img src="images/SanDiegoTemple.jpg" alt="San diego Temple">
+        <figcaption>San diego Temple </figcaption>
+      </figure>
+     
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Temple Album</p>
+    <p>Last updated: <span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
