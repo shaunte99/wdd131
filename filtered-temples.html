@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore temples around the world in this interactive picture album.">
+    <title>Temple Picture Album</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Picture Album</h1>
+        <nav>
+            <button id="menuToggle">☰ Menu</button>
+            <ul id="menu">
+                <li><a href="#" data-filter="All">All</a></li>
+                <li><a href="#" data-filter="Old">Old</a></li>
+                <li><a href="#" data-filter="New">New</a></li>
+                <li><a href="#" data-filter="Large">Large</a></li>
+                <li><a href="#" data-filter="Small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="temples-container" aria-live="polite"></div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Kamogelo Matsetela</p>
+        <p>Last Updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/filtered-temples.js"></script>
+</body>
+</html>
