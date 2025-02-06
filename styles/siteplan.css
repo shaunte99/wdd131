@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #03045e;
+  }
+  
+  /* Section Styles */
+  section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #caf0f8;
+    padding-bottom: 5px;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  
+  /* Color Schema Box */
+  .color-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Wireframe Section */
+  .wireframe-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .wireframe {
+    background-color: #e0f7fa;
+    width: 45%;
+    height: 200px;
+    border: 2px dashed #00b4d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #0077b6;
+  }
+  
+  .wireframe span {
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #90e0ef;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+  
